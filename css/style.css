@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+body{
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 600px;
+    height: 450px;
+    top: 175px;
+    left: 420px;
+    display: flex;
+    flex-direction: row;
+    margin: 10% auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.img-container{
+    width: 337.69px;
+    height: 450px;
+    background-image: url('/images/image-product-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.description{
+width: 337.69px;
+height: 450px;
+padding: 32px;
+}
+
+.subtitle{
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 14.63px;
+    font-size: 12px;
+}
+
+h1{
+margin-bottom: 32px;
+font-family: 'Fraunces', serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+font-style: normal;
+}
+
+p{
+    margin-bottom: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    font-style: normal;    
+}
+
+.value{
+    display: flex;
+    gap:19px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.onSales{
+    font-size: 32px;
+    line-height: 32px;
+    color:#3D8168;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    }
+
+.originalvalue{
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration: line-through;
+}
+
+button{
+    width: 236px;
+    height: 48px;
+    top: 370px;
+    left: 332px;
+    border-radius:8px;
+    background-color:#3D8168 ;
+    font-size: 14px;
+    border: none;
+    color: white;
+}
+botton img{
+    margin-right: 11.61px;
+    text-align: center;
+    }
